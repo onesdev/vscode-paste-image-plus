@@ -201,9 +201,10 @@ class Paster {
     public static getImagePath(filePath: string, selectText: string, folderPathFromConfig: string, 
         showFilePathConfirmInputBox: boolean, filePathConfirmInputBoxMode: string,
         callback: (err, imagePath: string) => void) {
-        // image file name
+        // generate image file name
         let imageFileName = "";
         if (!selectText) {
+            // use current time
             imageFileName = this.namePrefixConfig + moment().format(this.defaultNameConfig) + this.nameSuffixConfig + ".png";
         } else {
             imageFileName = this.namePrefixConfig + selectText + this.nameSuffixConfig + ".png";
@@ -243,10 +244,11 @@ class Paster {
             let imagePath = "";
 
             // generate image path
+            // save image into currentFileFolder/.mkimage/
             if (path.isAbsolute(folderPathFromConfig)) {
-                imagePath = path.join(folderPathFromConfig, fileName);
+                imagePath = path.join(folderPathFromConfig, '.mkimage', fileName);
             } else {
-                imagePath = path.join(folderPath, folderPathFromConfig, fileName);
+                imagePath = path.join(folderPath, folderPathFromConfig, '.mkimage', fileName);
             }
 
             return imagePath;

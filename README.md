@@ -2,21 +2,27 @@
 
 Paste image directly from clipboard to markdown/asciidoc(or other file)!
 
+这个插件是基于Paste Image (mushan)（https://github.com/mushanshitiancai/vscode-paste-image） 修改的，感谢mushan和相关的开发者；
+
+在mushan的Paste Image基础上，我们把剪切板中的图片放置到了当前目录下的.mkimage文件夹下，使得当前目录下不至于产生太多图片文件。
+
 **Support Mac/Windows/Linux!** And support config destination folder.
 
-![paste-image](https://raw.githubusercontent.com/mushanshitiancai/vscode-paste-image/master/res/vscode-paste-image.gif)
+![paste-image](./res/vscode-paste-image.gif)
 
 Now you can enable `pasteImage.showFilePathConfirmInputBox` to modify file path before save:
 
-![confirm-inputbox](https://raw.githubusercontent.com/mushanshitiancai/vscode-paste-image/master/res/confirm-inputbox.png)
+![confirm-inputbox](./res/confirm-inputbox.png)
 
 ## Usage
 
 1. capture screen to clipboard
 2. Open the command palette: `Ctrl+Shift+P` (`Cmd+Shift+P` on Mac)
 3. Type: "Paste Image" or you can use default keyboard binding: `Ctrl+Alt+V` (`Cmd+Alt+V` on Mac).
-4. Image will be saved in the folder that contains current editing file
+4. Image will be saved in 当前目录下的.mkimage文件夹下
 5. The relative path will be paste to current editing file 
+
+> Note: 如果我们不选中一段文字，直接粘贴图片，图片文件名会用当前的时间命名；如果我们实现选中一段文字，图片文件名会使用这段文字命名
 
 ## Config
 
@@ -247,11 +253,11 @@ PayPal:
 
 支付宝:
 
-![alipay](https://raw.githubusercontent.com/mushanshitiancai/vscode-paste-image/master/res/alipay.png)
+![alipay](./res/alipay.png)
 
 微信支付:
 
-![weixin](https://raw.githubusercontent.com/mushanshitiancai/vscode-paste-image/master/res/weixin.png)
+![weixin](./res/weixin.png)
 
 Donator list：
 - 白色咖啡

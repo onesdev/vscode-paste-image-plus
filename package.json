@@ -1,12 +1,12 @@
 {
-  "name": "vscode-paste-image",
-  "displayName": "Paste Image",
-  "description": "paste image from clipboard directly",
-  "version": "1.0.4",
-  "publisher": "mushan",
+  "name": "vscode-paste-image-plus",
+  "displayName": "PasteImage+",
+  "description": "paste image from clipboard directly to currentFileFolder/.mkimage/",
+  "version": "1.0.0",
+  "publisher": "jimmy",
   "author": {
-    "name": "mushan",
-    "email": "mushanmail@126.com"
+    "name": "jimmy",
+    "email": "20761927@qq.com"
   },
   "repository": {
     "type": "git",
