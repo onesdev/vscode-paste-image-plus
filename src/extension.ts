@@ -244,11 +244,11 @@ class Paster {
             let imagePath = "";
 
             // generate image path
-            // save image into currentFileFolder/.mkimage/
+            // save image into currentFileFolder/res/
             if (path.isAbsolute(folderPathFromConfig)) {
-                imagePath = path.join(folderPathFromConfig, '.mkimage', fileName);
+                imagePath = path.join(folderPathFromConfig, 'res', fileName);
             } else {
-                imagePath = path.join(folderPath, folderPathFromConfig, '.mkimage', fileName);
+                imagePath = path.join(folderPath, folderPathFromConfig, 'res', fileName);
             }
 
             return imagePath;
