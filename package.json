@@ -1,7 +1,7 @@
 {
   "name": "vscode-paste-image-plus",
   "displayName": "PasteImage+",
-  "description": "paste image from clipboard directly to currentFileFolder/.mkimage/",
+  "description": "paste image from clipboard directly to markdown/asciidoc(or other file)",
   "version": "1.0.0",
   "publisher": "jimmy",
   "author": {

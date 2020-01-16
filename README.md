@@ -6,6 +6,8 @@ Paste image directly from clipboard to markdown/asciidoc(or other file)!
 
 在mushan的Paste Image基础上，我们把剪切板中的图片放置到了当前目录下的.mkimage文件夹下，使得当前目录下不至于产生太多图片文件。
 
+注意，因为我们使用了和mushan: Paste Image相同的命令和快捷键，所以请不要和mushan: Paste Image同时安装。
+
 **Support Mac/Windows/Linux!** And support config destination folder.
 
 ![paste-image](./res/vscode-paste-image.gif)
@@ -18,7 +20,7 @@ Now you can enable `pasteImage.showFilePathConfirmInputBox` to modify file path 
 
 1. capture screen to clipboard
 2. Open the command palette: `Ctrl+Shift+P` (`Cmd+Shift+P` on Mac)
-3. Type: "Paste Image" or you can use default keyboard binding: `Ctrl+Alt+V` (`Cmd+Alt+V` on Mac).
+3. Type: "Paste Image" or you can use default keyboard binding: `Ctrl+Alt+V` (`Cmd+Option+V` on Mac).
 4. Image will be saved in 当前目录下的.mkimage文件夹下
 5. The relative path will be paste to current editing file 
 
@@ -253,13 +255,14 @@ PayPal:
 
 支付宝:
 
-![alipay](./res/alipay.png)
+![alipay](./res/alipay.jpeg)
 
 微信支付:
 
 ![weixin](./res/weixin.png)
 
 Donator list：
+- mushan
 - 白色咖啡
 - Paul Egbert
 - CallOnISS
