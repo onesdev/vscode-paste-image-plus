@@ -255,7 +255,7 @@ PayPal:
 
 支付宝:
 
-![alipay](./res/alipay.jpeg)
+![alipay](./res/alipay.png)
 
 微信支付:
 
