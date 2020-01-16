@@ -1,7 +1,7 @@
 {
   "name": "vscode-paste-image-plus",
-  "displayName": "Paste Image Plus",
-  "description": "paste image from clipboard directly to markdown/asciidoc(or other file)",
+  "displayName": "Paste Image to Markdown Plus",
+  "description": "从剪切板粘贴图片到markdown或其他文本文件，图片保存到本地目录/.mkimage/目录下",
   "version": "1.0.0",
   "publisher": "onesdev",
   "author": {
