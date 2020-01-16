@@ -3,9 +3,9 @@
   "displayName": "PasteImage+",
   "description": "paste image from clipboard directly to markdown/asciidoc(or other file)",
   "version": "1.0.0",
-  "publisher": "jimmy",
+  "publisher": "onesdev",
   "author": {
-    "name": "jimmy",
+    "name": "onesdev",
     "email": "20761927@qq.com"
   },
   "repository": {
